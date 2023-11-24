@@ -18,7 +18,6 @@ export async function storeToDoItem(userId, userEmail, itemText) {
             email: userEmail,
             itemText: itemText,
             uid: docUniqueId,
-
         };
 
         //STEP 6: Create a object called data that will hold the information going into the document 
